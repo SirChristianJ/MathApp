@@ -5,21 +5,21 @@ public class MathApp {
         // Question 1:
         double bobSalary = 85000.00;
         double garySalary = 90000.00;
-        double answer1 = Math.max(bobSalary, garySalary);
-        if (answer1 == bobSalary)
-            System.out.println("Bob has the higher salary with " + answer1);
+        double highestSalary = Math.max(bobSalary, garySalary);
+        if (highestSalary == bobSalary)
+            System.out.println("Bob has the higher salary with " + highestSalary);
         else{
-            System.out.println("Gary has the higher salary with " + answer1);
+            System.out.println("Gary has the higher salary with " + highestSalary);
         }
 
         //Question 2:
         int carPrice = 40000;
         int truckPrice = 60000;
-        int answer2 = Math.min(carPrice, truckPrice);
-        if (answer2 == truckPrice)
-            System.out.println("The truck is cheaper: " + answer2);
+        int cheapestPrice = Math.min(carPrice, truckPrice);
+        if (cheapestPrice == truckPrice)
+            System.out.println("The truck is cheaper: " + cheapestPrice);
         else{
-            System.out.println("The car is cheaper: " + answer2);
+            System.out.println("The car is cheaper: " + cheapestPrice);
         }
 
         //Qeustion 3:
@@ -38,8 +38,8 @@ public class MathApp {
         //Question 5:
         double x1 = 5.0;
         double x2 = 85.0;
-        double y1 = 10;
-        double y2 = 50;
+        double y1 = 10.0;
+        double y2 = 50.0;
         double distanceFormula = Math.sqrt(Math.pow((x2-x1), 2) + Math.pow(y2-y1, 2));
         System.out.println("The distance between (5,10) and (85,50) is: " + distanceFormula);
 
